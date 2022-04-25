@@ -1,5 +1,7 @@
 <?php
     include_once("hepers/url.php");
+    include_once("data/categories.php");
+    include_once("data/post.php");
 ?>
 
 <!DOCTYPE html>
