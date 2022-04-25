@@ -9,7 +9,7 @@
         </div>
         <div id="post-container">
             <?php foreach ($posts as $post): ?>
-                <div class="post-base">
+                <div class="post-box">
                     <img src="<?= $BASE_URL ?>/img/<?= $post['img'] ?>" alt="<?= $post['title']?>">
                     <h2 class="post-title">
                         <a href="<?= $BASE_URL ?> post.php?id=<?= $post['id'] ?>"><?=$post['title']?></a>
