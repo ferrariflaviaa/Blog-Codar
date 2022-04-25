@@ -4,5 +4,6 @@
 ?>
 <body>
     <h1>Ola usuário</h1>
-</body>
-</html>
+<?php
+    include_once("templates/footer.php")
+?>
